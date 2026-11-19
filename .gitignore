@@ -1,0 +1,85 @@
+# ---- 固件 / 镜像 / 安装包等大文件（严禁入库） ----
+*.bin
+*.img
+*.apk
+*.apx
+*.sparse
+*.zip
+*.7z
+*.rar
+*.tar
+*.gz
+*.xz
+*.md5
+*.sha256
+*.exe
+*.dll
+*.pyd
+*.so
+*.dylib
+
+# ---- 构建产物 ----
+build/
+dist/
+release/
+*.spec.bak
+*.manifest
+
+# ---- 运行时中间目录（解包/重组/输出） ----
+work/
+out/
+extract/
+tmp/
+temp/
+
+# ---- Python ----
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyo
+.venv/
+venv/
+env/
+ENV/
+.python-version
+.mypy_cache/
+.pytest_cache/
+.ruff_cache/
+*.egg-info/
+.eggs/
+
+# ---- IDE / 编辑器 ----
+.idea/
+.vscode/
+*.iml
+*.swp
+*~
+.project
+.settings/
+*.sublime-workspace
+*.sublime-project
+
+# ---- 日志与临时文件 ----
+*.log
+logs/
+*.tmp
+*.bak
+*.orig
+*.rej
+~$*
+
+# ---- 系统垃圾 ----
+.DS_Store
+Thumbs.db
+desktop.ini
+$RECYCLE.BIN/
+
+# ---- 本地私有内容（附件、笔记、私人路径痕迹） ----
+attachments/
+附件/
+*.private.*
+.env
+.env.*
+secrets.*
+*.local.json
+打包方案对比.md
